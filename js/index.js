@@ -63,28 +63,5 @@ $(document).ready(function() {
   if (tweet.length > 140) {
     tweet = quote.substr(0, 136) + "...";
   }
-
-  //Delete Me
-
-  //
-  //
-  // These code snippets use an open-source library.
-  /* $.ajax({
-     url: 'https://andruxnet-random-famous-quotes.p.mashape.com/cat=movies',
-     headers: {
-       'X-Mashape-Key': 'gC0zfVzZBwmshIU4M6wmhN0hyW43p1e7Z7hjsnzKk5cdVUGdKh',
-       'Content-Type': 'application/x-www-form-urlencoded',
-       'Accept': 'application/json'
-     },
-     method: 'POST',
-     dataType: 'json',
-     success: function(data) {
-       $("#quote").html(data.quote);
-       $("#movie").html(data.author);
-       tweet = data.quote + " - " + data.author;
-     }
-   }); */
-
-  /* End Tweet Filter */
-  //$('#tweet').click(function() { window.location = "https://twitter.com/intent/tweet?text=" + tweet; });//
+  
 });
